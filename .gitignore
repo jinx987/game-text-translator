@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+# Local secrets (Google / Papago keys)
+.env
+
+# Overlay error log
+error.log
+
+# Tesseract language data is downloaded on first run, not committed.
+tessdata/*.traineddata
+tessdata/*.part
